@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Check out code
       uses: actions/checkout@v2
 
-    - name: Build docker images
+    - name: Build docker image
       run: docker-compose build
 
-    - name: Verify ruby version
+    - name: Verify rush is installed
       run: docker-compose run test
