@@ -1,4 +1,4 @@
-Ubuntu with Rush
+Ubuntu docker with Rush
 ==================================================
 
 [Source code on GitHub][github] | [Image on DockerHub][dockerhub]
@@ -18,11 +18,22 @@ In your Dockerfile, do this:
 ```dockerfile
 FROM dannyben/rush
 
-RUN rush clone your-repo --default && \
+RUN rush clone your-repo --name default && \
     rush get any-package
 
 # ... rest of your dockerfile
 
+```
+
+Tags
+--------------------------------------------------
+
+You may request specific Rush versions, by specifing one of these [tags].
+
+For example:
+
+```dockerfile
+FROM dannyben/rush:0.4.1
 ```
 
 
