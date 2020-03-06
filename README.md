@@ -13,7 +13,7 @@ It was designed to help in building docker images that need Rush packages.
 Usage
 --------------------------------------------------
 
-## Using as a sandbox
+### Using as a sandbox
 
 To play with rush in a docker sandbox, run:
 
@@ -22,7 +22,7 @@ $ docker run --rm -it dannyben/rush
 > rush --help
 ```
 
-## Using as a base image
+### Using as a base image
 
 In your Dockerfile, do this:
 
@@ -40,7 +40,6 @@ Tags
 --------------------------------------------------
 
 You may request specific Rush versions, by specifing one of these [tags].
-
 For example:
 
 ```dockerfile
