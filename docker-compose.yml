@@ -4,3 +4,8 @@ services:
   rush:
     build: .
     image: dannyben/rush
+
+  test:
+    image: dannyben/rush
+    command: rush --version
+
