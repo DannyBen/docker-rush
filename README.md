@@ -18,8 +18,7 @@ In your Dockerfile, do this:
 ```dockerfile
 FROM dannyben/rush
 
-RUN rush clone your-repo --name default && \
-    rush get any-package
+RUN rush snatch you your-package 
 
 # ... rest of your dockerfile
 
@@ -41,3 +40,4 @@ FROM dannyben/rush:0.5.0
 [github]: https://github.com/DannyBen/docker-rush
 [dockerhub]: https://hub.docker.com/r/dannyben/rush
 [Rush]: https://github.com/DannyBen/rush-cli
+
