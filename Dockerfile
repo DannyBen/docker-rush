@@ -11,7 +11,7 @@ WORKDIR /app
 RUN apt-get update -y && apt-get install -y curl wget git sudo
 
 # Nicer prompt
-RUN echo 'export PS1="\n\n>> rush \W \$ "' >> /root/.bashrc
+RUN echo 'export PS1="\\n\\n>> rush \W \$ "' >> /root/.bashrc
 
 # Install rush
 ADD https://raw.githubusercontent.com/DannyBen/rush-cli/v$version/rush /usr/local/bin/
