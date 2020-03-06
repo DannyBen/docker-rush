@@ -9,5 +9,5 @@ WORKDIR /app
 RUN apt-get update -y && apt-get install -y curl wget git sudo
 
 # Rush
-ADD https://raw.githubusercontent.com/DannyBen/rush-cli/v0.4.1/rush /usr/local/bin/
+ADD https://raw.githubusercontent.com/DannyBen/rush-cli/v0.5.0/rush /usr/local/bin/
 RUN chmod +x /usr/local/bin/rush

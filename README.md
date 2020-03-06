@@ -33,10 +33,11 @@ You may request specific Rush versions, by specifing one of these [tags].
 For example:
 
 ```dockerfile
-FROM dannyben/rush:0.4.1
+FROM dannyben/rush:0.5.0
 ```
 
 
+[tags]: https://github.com/DannyBen/docker-rush/releases
 [github]: https://github.com/DannyBen/docker-rush
 [dockerhub]: https://hub.docker.com/r/dannyben/rush
-[Rush]: https://github.com/DannyBen/rush-cli/
+[Rush]: https://github.com/DannyBen/rush-cli
