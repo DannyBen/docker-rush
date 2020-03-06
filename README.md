@@ -13,6 +13,17 @@ It was designed to help in building docker images that need Rush packages.
 Usage
 --------------------------------------------------
 
+## Using as a sandbox
+
+To play with rush in a docker sandbox, run:
+
+```shell
+$ docker run --rm -it dannyben/rush
+> rush --help
+```
+
+## Using as a base image
+
 In your Dockerfile, do this:
 
 ```dockerfile
