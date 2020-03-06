@@ -18,6 +18,7 @@ In your Dockerfile, do this:
 ```dockerfile
 FROM dannyben/rush
 
+# Run any rush command normally, for example:
 RUN rush snatch you your-package 
 
 # ... rest of your dockerfile
