@@ -7,5 +7,4 @@ services:
 
   test:
     image: dannyben/rush
-    command: rush --version | grep 0.5.2
-
+    command: rush --version | grep 0.5.3
