@@ -18,7 +18,7 @@ Usage
 To play with rush in a docker sandbox, run:
 
 ```shell
-$ docker run --rm -it dannyben/rush
+$ docker run --rm -it --entrypoint bash dannyben/rush
 > rush --help
 ```
 
