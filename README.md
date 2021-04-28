@@ -43,7 +43,7 @@ You may request specific Rush versions, by specifing one of these [tags].
 For example:
 
 ```dockerfile
-FROM dannyben/rush:0.5.8
+FROM dannyben/rush:0.6.1
 ```
 
 
