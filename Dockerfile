@@ -1,7 +1,7 @@
 FROM ubuntu
 
 # Build args
-ARG version=0.6.1
+ARG version=0.6.2
 
 # Environment
 ENV TERM linux
