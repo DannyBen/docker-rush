@@ -1,10 +1,12 @@
-version: '3'
-
 services:
   rush:
     build: .
     image: dannyben/rush
 
-  test:
+  rush-tagged:
+    build: .
+    image: dannyben/rush:0.7.1
+
+  version:
     image: dannyben/rush
-    command: --version | grep 0.7.1
+    command: --version
