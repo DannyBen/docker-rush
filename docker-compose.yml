@@ -5,7 +5,7 @@ services:
 
   rush-tagged:
     build: .
-    image: dannyben/rush:0.7.1
+    image: dannyben/rush:0.7.5
 
   version:
     image: dannyben/rush
