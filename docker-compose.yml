@@ -1,11 +1,15 @@
 services:
-  rush:
+  rush: &default
     build: .
     image: dannyben/rush
 
   rush-tagged:
-    build: .
+    <<: *default
     image: dannyben/rush:0.7.11
+
+  bash:
+    <<: *default
+    entrypoint: bash
 
   version:
     image: dannyben/rush
