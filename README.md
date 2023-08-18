@@ -47,7 +47,7 @@ FROM dannyben/rush:0.7.11
 ```
 
 
-[tags]: https://github.com/DannyBen/docker-rush/releases
+[tags]: https://github.com/DannyBen/docker-rush/tags
 [github]: https://github.com/DannyBen/docker-rush
 [dockerhub]: https://hub.docker.com/r/dannyben/rush
 [Rush]: https://github.com/DannyBen/rush-cli
